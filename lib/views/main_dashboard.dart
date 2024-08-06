@@ -25,7 +25,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
     'About',
     'Services',
     'Portfolio',
-    'Contact',
+    // 'Contact',
   ];
 
   var menuIndex = 0;
