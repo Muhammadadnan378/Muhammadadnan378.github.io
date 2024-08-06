@@ -35,7 +35,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
     AboutMe(),
     MyServices(),
     MyPortfolio(),
-    ContactUs(),
+    // ContactUs(),
     // FooterClass(),
   ];
 
