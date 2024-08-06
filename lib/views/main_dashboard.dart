@@ -152,6 +152,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
         controller: _scrollController, // Here
         child: ListView.builder(
           controller: _scrollController,
+          shrinkWrap: true,
           itemCount: screensList.length,
           itemBuilder: (context, index) {
             return SizedBox(
