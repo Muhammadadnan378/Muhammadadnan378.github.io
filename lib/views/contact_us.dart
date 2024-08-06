@@ -74,7 +74,7 @@ class ContactUs extends StatelessWidget {
               decoration: buildInputDecoration(hintText: 'Your Message'),
             ),
           ),
-          Constants.sizedBox(height: 40.0),
+          Constants.sizedBox(height: 80.0),
           AppButtons.buildMaterialButton(
               buttonName: 'Send Message', onTap: () {}),
           Constants.sizedBox(height: 30.0),
