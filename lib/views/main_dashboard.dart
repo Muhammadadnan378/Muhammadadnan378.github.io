@@ -36,7 +36,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
     MyServices(),
     MyPortfolio(),
     ContactUs(),
-    FooterClass(),
+    // FooterClass(),
   ];
 
   Future<void> scrollTo({required int index}) async {
