@@ -25,7 +25,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
     'About',
     'Services',
     'Portfolio',
-    // 'Contact',
+    'Contact',
   ];
 
   var menuIndex = 0;
@@ -35,7 +35,7 @@ class _MainDashBoardState extends State<MainDashBoard> {
     AboutMe(),
     MyServices(),
     MyPortfolio(),
-    // ContactUs(),
+    ContactUs(),
     // FooterClass(),
   ];
 
