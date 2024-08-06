@@ -80,14 +80,14 @@ class ContactUs extends StatelessWidget {
           Constants.sizedBox(height: 30.0),
         ],
       ),
-      tablet: buildForm(),
-      desktop: buildForm(),
+      tablet: buildForm(context),
+      desktop: buildForm(context),
       paddingWidth: size.width * 0.2,
       bgColor: AppColors.bgColor,
     );
   }
 
-  Column buildForm() {
+  Column buildForm(context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
@@ -169,6 +169,7 @@ class ContactUs extends StatelessWidget {
         AppButtons.buildMaterialButton(
             buttonName: 'Send Message', onTap: () {}),
         Constants.sizedBox(height: 30.0),
+        SizedBox(height: MediaQuery.of(context).size.height * 0.1,)
       ],
     );
   }
