@@ -169,7 +169,7 @@ class ContactUs extends StatelessWidget {
         AppButtons.buildMaterialButton(
             buttonName: 'Send Message', onTap: () {}),
         Constants.sizedBox(height: 30.0),
-        SizedBox(height: MediaQuery.of(context).size.height * 0.1,)
+        // SizedBox(height: MediaQuery.of(context).size.height * 0.1,)
       ],
     );
   }
